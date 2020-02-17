@@ -9,6 +9,10 @@ install: ## Checkout all
 update-all: ## Pull all changes from remote repos
 	./git-pull.sh
 
+.PHONY: status-all
+status-all: ## Show a brief summary of local changes
+	./git-status.sh
+
 .PHONY: build-all
 build-all: ## Build all
 	./mvnw clean install
