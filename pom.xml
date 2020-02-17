@@ -10,7 +10,6 @@
     <modules>
         <module>avro-buddy-core</module>
         <module>avro-buddy-xml</module>
-        <module>skatt-file-to-parquet</module>
         <module>avro-buddy-generator</module>
         <module>skatt-synthetic-data-to-parquet</module>
   </modules>
