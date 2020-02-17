@@ -15,7 +15,7 @@ status-all: ## Show a brief summary of local changes
 
 .PHONY: build-all
 build-all: ## Build all
-	./mvnw clean install
+	mvn clean install
 
 .PHONY: help
 help:
