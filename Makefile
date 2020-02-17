@@ -2,7 +2,7 @@
 default: | help
 
 .PHONY: install
-install: ## Checkout all related rawdata-converter repos
+install: ## Checkout all 
 	./git-checkout.sh
 
 .PHONY: update-all
