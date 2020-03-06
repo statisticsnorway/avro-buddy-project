@@ -1,13 +1,9 @@
 .PHONY: default
 default: | help
 
-.PHONY: install
-install: ## Checkout all 
-	./git-checkout.sh
-
 .PHONY: update-all
-update-all: ## Pull all changes from remote repos
-	./git-pull.sh
+update-all: ## Pull/clone remote repos
+	./git-update.sh
 
 .PHONY: status-all
 status-all: ## Show a brief summary of local changes
