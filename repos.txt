@@ -1,4 +1,5 @@
 avro-buddy-core
+avro-buddy-json
 avro-buddy-xml
 avro-buddy-generator
 skatt-synthetic-data-to-parquet
