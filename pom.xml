@@ -9,9 +9,10 @@
 
     <modules>
         <module>avro-buddy-core</module>
-        <module>avro-buddy-xml</module>
-        <module>avro-buddy-json</module>
+        <module>avro-buddy-csv</module>
         <module>avro-buddy-generator</module>
+        <module>avro-buddy-json</module>
+        <module>avro-buddy-xml</module>
         <module>skatt-synthetic-data-to-parquet</module>
   </modules>
 

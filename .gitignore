@@ -12,8 +12,9 @@ out/
 .settings
 .classpath
 /avro-buddy-core/
-/avro-buddy-generator/
+/avro-buddy-csv/
 /avro-buddy-json/
+/avro-buddy-generator/
 /avro-buddy-xml/
 /skatt-file-to-parquet/
 /skatt-synthetic-data-to-parquet/
